@@ -162,3 +162,15 @@ namespace YourNamespace.Controllers
     }
 
     public class Date
+    {
+        public string? DateType { get; set; }
+        public DateTime? DateValue { get; set; }
+    }
+
+    public class Name
+    {
+        public string? FirstName { get; set; }
+        public string? MiddleName { get; set; }
+        public string? Surname { get; set; }
+    }
+}
